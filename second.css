@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.about {
+  max-width: 90%;
+  margin: auto;
+  color: #0B2E87;
+}
+
+.about__title {
+  margin-bottom: 3rem;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.about__self {
+  margin-left: 60%;
+  max-width: 60%;
+  position: relative;
+}
+
+.about__self::before {
+  content: '';
+  position: absolute;
+  background: url("./../img/about__photo.png") center no-repeat;
+  left: -100%;
+  top: -10%;
+  background-size: 100% 100%;
+  width: 21.955rem;
+  height: 20rem;
+}
+
+.about__self__text {
+  font-size: 0.9rem;
+}
+
+.about__self__list {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__item {
+  padding-top: 0.2rem;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+
+.about__item-1 {
+  padding-left: 3rem;
+  position: relative;
+}
+
+.about__item-1::before {
+  padding-left: 2rem;
+  position: absolute;
+  left: -1rem;
+  top: 0.5rem;
+  content: '';
+  background: url("./../img/about__item-1.svg") center no-repeat;
+  display: inline-block;
+  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.about__item-2 {
+  position: relative;
+}
+
+.about__item-2::before {
+  margin-left: -2rem;
+  position: absolute;
+  left: -1rem;
+  top: 0.5rem;
+  content: '';
+  background: url("./../img/about__item-2.svg") center no-repeat;
+  display: inline-block;
+  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.about__item-3 {
+  padding-left: 3rem;
+  position: relative;
+}
+
+.about__item-3::before {
+  padding-left: 2rem;
+  position: absolute;
+  left: -1rem;
+  top: 0.5rem;
+  content: '';
+  background: url("./../img/about__item-3.svg") center no-repeat;
+  display: inline-blockе;
+  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.about__item-4 {
+  position: relative;
+}
+
+.about__item-4::before {
+  margin-left: -2rem;
+  position: absolute;
+  left: -1rem;
+  top: 0.5rem;
+  content: '';
+  background: url("./../img/about__item-4.svg") center no-repeat;
+  display: inline-block;
+  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+}
+/*# sourceMappingURL=second.css.map */

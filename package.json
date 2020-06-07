@@ -1,0 +1,28 @@
+{
+  "name": "repair-design",
+  "version": "1.0.0",
+  "description": "leson_17",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demschwarz/repair-design.git"
+  },
+  "author": "Demschwarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demschwarz/repair-design/issues"
+  },
+  "homepage": "https://github.com/Demschwarz/repair-design#readme"
+}

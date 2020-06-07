@@ -1,0 +1,233 @@
+@import './first'
+@import './second'
+@import './third'
+@import './fourth'
+@import './fifth'
+@import "http://fonts.fontstorage.com/import/montserrat.css";
+html
+    font-size: 20px
+body
+    margin: 0
+    font-family: 'Montserrat'
+.container
+    &__margin
+        max-width: 80%
+        margin: auto
+
+
+@media screen and ( max-width:  1780px )
+    .example
+        &_item
+            &_second
+                margin-top: 1rem
+
+@media screen and ( max-width:  1550px )
+    .map
+        &_little
+            display: none
+        &_middle
+            display: block
+        &_big
+            display: none
+    .example
+        &_item
+            &_second
+                margin-top: 1.5rem
+    .cloud1
+        left: -20%
+        top: 25%
+    .about
+        &__self
+            margin-left: 40%
+    .service
+        &s
+            margin-left: 4rem
+    .example
+        &_text
+            padding-right: 7rem
+            padding-left: 7rem
+@media screen and ( max-width:  1300px )
+    .cloud1
+        left: -20%
+        top: 15%
+    html
+        font-size: 18px
+    .example
+        &_text
+            font-size: 1.5rem
+            line-height: 1.7rem
+            padding-right: 6rem
+            padding-left: 6rem
+        &_item
+            margin: auto
+            
+            max-width: 80%
+        &s
+            flex-direction: column
+@media screen and ( max-width:  1180px )
+    .fifth
+        background-size: 100% 50%
+    .contacts
+        flex-direction: column
+        &_maps
+            margin-right: 15rem
+        &_map
+            max-width: 50%
+            margin: auto
+        &_form
+            width: 50%
+            margin-top: 5rem
+            margin-left: 10rem
+    .third
+        background-size: 200%
+        background-repeat: repeat
+    html
+        font-size: 18px
+    .item
+        &__dn
+            display: none
+    .service
+        margin-bottom: 10rem
+        &s
+            flex-direction: column
+
+@media screen and ( max-width:  950px )
+    .contacts
+        &_footer
+            &_img
+                display: none
+    .cloud1
+        left: -20%
+        top: 20%
+    .example
+        &_text
+            font-size: 1.5rem
+            line-height: 1.7rem
+            padding-right: 5rem
+            padding-left: 5rem
+    html
+        font-size: 17px
+    .intro
+        &__photo
+            margin-bottom: 2rem
+    .about
+        &__self
+            margin: auto
+            max-width: 90%
+            &::before
+                position: inherit
+                display: block
+                margin: auto
+                left: 0
+@media screen and ( max-width:  760px )
+    .swiper-button-
+        &next
+            &_second
+                padding-top: 3.5rem
+        &prev
+            &_second
+                padding-top: 3.5rem
+
+
+    .contacts
+        &_footer
+            margin-bottom: 0
+            flex-direction: column
+            &_span
+                margin-bottom: 2rem
+    .map
+        &_little
+            display: block
+        &_middle
+            display: none
+        &_big
+            display: none
+    .cloud1
+        left: -20%
+        top: 30%
+    .example
+        &_text
+            font-size: 1.2rem
+            line-height: 1.7rem
+            padding-right: 4rem
+            padding-left: 2rem
+    .head
+        font-size: 16px
+    .item
+        &__logo, &__tel
+            &::before
+                display: none
+    .intro
+        &__item
+            max-width: 90%
+        &__photo
+            display: none
+    .about
+        &__self
+            &::before
+                left: -5%
+                background-size: 100%
+@media screen and ( max-width:  660px )
+    .map
+        &_big
+            display: none
+        &_little
+            display: inline-block
+    .contacts
+        &_maps
+            margin: auto
+        &_form
+            width: 100%
+            margin-left: 0
+        &_input
+            text-align: center
+@media screen and ( max-width:  550px )
+    .cloud1
+        display: none
+    .cloud2
+        bottom: 10%
+    .example
+        &_text
+            font-size: 1.2rem
+            line-height: 1.7rem
+            padding-right: 3.5rem
+            padding-left: 1.5rem
+    .second
+        margin-top: 1rem
+    .intro
+        &__name
+            font-size: 2rem
+    .about
+        &__title
+            margin-bottom: 1rem
+        &__item
+            &-2, &-4
+                margin-left: 3rem
+        &__self
+            &__list
+                flex-direction: column
+        &__self
+            &::before
+                left: -10%
+                background-size: 100% auto
+                width: 100%
+    .service
+        margin-bottom: 20rem
+        min-width: 70%
+        &s
+            margin-left: 0
+        &_img
+            margin-top: -7rem
+        &_btn
+            margin-right: 2rem
+    .example            
+        &_slider
+            margin-bottom: 2rem
+            &_second
+                margin-bottom: 7rem
+
+@media screen and ( min-width:  760px )
+    .second
+        margin-top: 5rem
+        background: url('./../img/background-second.png') no-repeat
+        background-size: 100%

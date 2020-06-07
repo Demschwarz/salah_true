@@ -1,0 +1,102 @@
+.first
+    background-image: url('./../img/background-first.png')
+    background-size: 100% 100%
+.head
+    padding-top: 2.5rem
+    color: white
+    &__menu
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        &__item
+            color: white
+            text-decoration: none
+.intro
+    position: relative
+    margin-top: 2.5rem
+    color: white
+    display: flex
+    flex-direction: row
+    // justify-content: space-between
+    &__item
+        max-width: 50%
+    &__text
+        display: flex
+        flex-direction: column
+    &__name
+        font-weight: 900
+        font-size: 2.4rem
+        line-height: 3.9rem
+        line-height: 100%
+        &__item
+            margin-bottom: 2rem
+    &__desc
+        font-weight: 500
+        font-size: 1rem
+        line-height: 1.1rem
+    &__signup
+        background: #13907C
+        box-shadow: 0rem 0.5rem 0.75rem rgba(6, 138, 117, 0.81)
+        border-radius: 0.75rem
+        border: none
+        margin-bottom: 8rem
+        max-width: 10rem
+        font-weight: 900
+        line-height: 1.2rem
+        color: white
+        padding: 0.5rem 0 0.5rem 0
+    &__photo
+        max-height: 30rem
+        position: absolute
+        left: 40%
+        bottom: -10%
+        max-width: 60%
+        height: auto
+.item
+    &__text
+        text-decoration: none
+        font-style: bold
+        font-size: 1.1rem
+        line-height: 1.35rem
+        max-width: 10rem
+        text-align: right
+        &>span
+            font-size: 0.95rem
+    &__link
+        text-decoration: underline
+        color: white
+    &__logo
+        font-size: 2rem
+        font-weight: 900
+        &::before
+            content: ''
+            background: url('./../img/logo__tooth.svg') center no-repeat
+            background-size: 1.5rem 1.5rem
+            display: inline-block
+            width: 1.5rem
+            height: 1.5rem
+    &__city
+        position: relative
+        &::before
+            position: absolute
+            left: -1.5rem
+            top: -0.25rem
+            content: ''
+            background: url('./../img/head__mark.svg') center no-repeat
+            display: inline-block
+            background-size: 1.25rem 1.25rem
+            width: 1.5rem
+            height: 1.5rem
+    &__tel
+        position: relative
+        &::before
+            position: absolute
+            left: -1rem
+            top: 0.5rem
+            content: ''
+            background: url('./../img/head__tel.svg') center no-repeat
+            display: inline-block
+            background-size: 1.25rem 1.25rem
+            width: 1.5rem
+            height: 1.5rem
